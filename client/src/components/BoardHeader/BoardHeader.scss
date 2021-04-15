@@ -1,0 +1,22 @@
+.board-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 72px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.board-header__name {
+  padding-right: 48px;
+  margin: auto!important;
+  height: 24px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(0, 0, 0, 0.54)!important;
+}
+
+.board-header__back {
+  opacity: 0.54;
+}
